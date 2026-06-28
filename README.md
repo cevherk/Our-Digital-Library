@@ -2,21 +2,18 @@
 
 A warm, modern, and personal digital library tracker built for İbrahim and Esra to keep track of the books they have read, are reading, or plan to read together. 
 
-## Features
-- **No Database Required:** All data is managed through a simple `data.js` file.
-- **Warm Aesthetic:** Designed to evoke the feeling of a cozy wooden library with pastel colors and elegant typography.
-- **Real-time Filtering:** Instantly search for books by title or author.
-- **Reading Status:** Filter books by who has read them (İbrahim, Esra, or both).
-- **Responsive Design:** Looks great on desktop, tablet, and mobile devices.
+**🌐 Live Demo:** [https://cevherk.github.io/Our-Digital-Library/](https://cevherk.github.io/Our-Digital-Library/)
 
-## How to Deploy on GitHub Pages
-1. Push this repository to your GitHub account.
-2. Go to your repository **Settings**.
-3. Navigate to **Pages** on the left sidebar.
-4. Under "Source", select the `main` branch (or `master`) and save.
-5. Your digital library will be live at `https://[your-username].github.io/[repository-name]/` within a few minutes.
+> 📸 *Tip: You can add a screenshot of your library here later (e.g. `![Library Screenshot](screenshot.png)`).*
 
-## How to Add a New Book
+## ✨ Features
+- **Library Statistics:** Keep track of the total number of books, as well as how many books İbrahim and Esra have read individually or together.
+- **Real-time Search & Filtering:** Instantly search books by title or author, filter by reader, and see the exact number of matching results.
+- **No Database Required:** All data is stored in a simple `data.js` file, completely eliminating the need for a complex backend.
+- **Warm Aesthetic:** A cozy, wooden library aesthetic with beautiful typography and pastel colors.
+- **Responsive:** Works and looks perfect on both desktop and mobile devices.
+
+## 📖 How to Add a New Book
 To add a new book to the collection, simply open `data.js` and add a new object to the `libraryData` array. 
 
 Here is a code example:
@@ -33,10 +30,10 @@ Here is a code example:
 }
 ```
 
-## Technologies Used
+## 🛠 Technologies Used
 - HTML5
 - CSS3 (Vanilla, CSS Grid, Flexbox)
 - JavaScript (Vanilla)
 
-## License
+## 📄 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
