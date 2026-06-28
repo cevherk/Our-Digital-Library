@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Digital Library</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="library-header">
+        <div class="header-content">
+            <h1>Our Digital Library</h1>
+            <p class="subtitle">A shared journey through pages</p>
+            
+            <div class="controls">
+                <div class="search-container">
+                    <input type="text" id="searchInput" placeholder="Search by title or author...">
+                    <span class="search-icon">🔍</span>
+                </div>
+                
+                <div class="filter-container">
+                    <select id="readerFilter">
+                        <option value="all">All Books</option>
+                        <option value="ibrahim">Read by İbrahim</option>
+                        <option value="esra">Read by Esra</option>
+                        <option value="both">Read by Both</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="library-stats" id="libraryStats">
+                <!-- Stats injected here -->
+            </div>
+        </div>
+    </header>
+
+    <main class="library-container">
+        <div class="results-info hidden" id="resultsInfo">
+            Showing <span id="resultsCount">0</span> books
+        </div>
+        
+        <div class="shelf" id="bookShelf">
+            <!-- Books will be dynamically injected here -->
+        </div>
+        <div id="noResults" class="no-results hidden">
+            <p>No books found matching your criteria.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>Created with ♥ by İbrahim & Esra</p>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
