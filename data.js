@@ -3991,7 +3991,7 @@ const libraryData = [
         "author": "FRIEDRICH NIETZSCHE",
         "pages": "235",
         "publisher": "iş bankası yayınları hasan ali yücel dizisi",
-        "ibrahimRead": "",
+        "ibrahimRead": "20.07.2026",
         "esraRead": "",
         "notes": ""
     },
