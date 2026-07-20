@@ -1,8 +1,8 @@
-# Our Digital Library 📚
+# Digital Library 📚
 
 A warm, modern, and personal digital library tracker built for İbrahim and Esra to keep track of the books they have read, are reading, or plan to read together. 
 
-**🌐 Live Demo:** [https://cevherk.github.io/Our-Digital-Library/](https://cevherk.github.io/Our-Digital-Library/)
+**🌐 Live Demo:** [https://cevherk.github.io/library/](https://cevherk.github.io/library/)
 
 > 📸 *Tip: You can add a screenshot of your library here later (e.g. `![Library Screenshot](screenshot.png)`).*
 
